@@ -6,7 +6,7 @@ export default class TrackList extends Component {
         return (
             <div>
                 <div className="TrackList">
-                <!-- You will add a map method that renders a set of Track components  -->
+                -- You will add a map method that renders a set of Track components  --
                 </div>
             </div>
         )
