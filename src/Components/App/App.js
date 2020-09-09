@@ -1,11 +1,16 @@
 import React from 'react';
 
 import './App.css';
-import './Components/SearchBar/SearchBar'
-import './Components/SearchResults/SearchResults'
-import './Components/Playlist/Playlist'
+import '../SearchBar/SearchBar'
+import '../SearchResults/SearchResults'
+import '../Playlist/Playlist'
 
-function App() {
+class App extends React.Component {
+
+  constructor(props) {
+    super(props)
+  }
+    render() {
   return (
     <div>
   <h1>Ja<span className="highlight">mmm</span>ing</h1>
@@ -19,5 +24,5 @@ function App() {
 </div>
   );
 }
-
+}
 export default App;
